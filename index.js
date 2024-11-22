@@ -16,6 +16,7 @@ import permissionRoutes from "./routes/permissionRoutes.js";
 import roleRoutes from "./routes/roleRoutes.js";
 import dashboardRoutes from "./routes/dashboardRoutes.js";
 import categoryRoutes from "./routes/categoryRoutes.js";
+import userRoutes from "./routes/userRoutes.js";
 
 // Load Config
 // if (process.env.NODE_ENV == "development") {
@@ -51,6 +52,7 @@ app.use("/api/dashboard", dashboardRoutes)
 app.use("/api/admin", adminRoutes)
 app.use("/api/permission", permissionRoutes)
 app.use("/api/category", categoryRoutes)
+app.use("/api/user", userRoutes)
 
 
 // error handler
