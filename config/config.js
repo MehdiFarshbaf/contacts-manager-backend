@@ -30,5 +30,5 @@ export const superAdmin = {
 }
 export const allowTypesImages = ['.jpg', '.jpeg', '.png']
 
-export const baseURL = "https://back-contacts-manager.farshbaf-dev.ir"
+export const baseURL = "https://back-contacts.farshbaf-dev.ir"
 export const offlineURL = "http://localhost:5000/"

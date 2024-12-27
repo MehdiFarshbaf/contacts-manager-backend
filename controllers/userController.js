@@ -17,7 +17,7 @@ export const getAllUsers = async (req, res, next) => {
 
 export const getUser = async (req, res, next) => {
     try {
-        const user = await User.findById(req.params.id)
+        const user = await User.findById(req.params.id).populate("category")
         if (!user) sendErrorResponse("کاربری با این شناسه یافت نشد.", 404)
 
         sendSuccessResponse(res,200,user)

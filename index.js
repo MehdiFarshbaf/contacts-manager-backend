@@ -19,7 +19,7 @@ import categoryRoutes from "./routes/categoryRoutes.js";
 import userRoutes from "./routes/userRoutes.js";
 
 // Load Config
-// if (process.env.NODE_ENV == "development") {
+// if (process.env.NODE_ENV === "development") {
 dotenv.config()
 // }
 
